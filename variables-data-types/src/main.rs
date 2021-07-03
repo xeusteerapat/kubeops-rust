@@ -21,5 +21,5 @@ fn main() {
         Err(_) => 0,
     };
 
-    print!("My age {}", age_input) // if age_input is more than 255, this will print 0
+    print!("My age {}", age_input); // if age_input is more than 255, this will print 0
 }
